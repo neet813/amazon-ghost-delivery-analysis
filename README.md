@@ -3,7 +3,8 @@
 > *"My order was marked delivered. It never arrived. I'm a data analyst. So I investigated."*
 
 ## 📊 Live Dashboard
-[View Dashboard →](YOUR_LOOKER_STUDIO_LINK_HERE)
+
+![Amazon Ghost Delivery Risk Analysis](Amazon_Ghost_Delivery_Risk_Analysis.pdf)
 
 ## Overview
 This project analyses 43,739 real Amazon delivery records to identify ghost delivery patterns — deliveries marked as completed but potentially never received by customers.
