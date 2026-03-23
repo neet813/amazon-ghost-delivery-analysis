@@ -1,10 +1,11 @@
-# 🚚 Amazon Ghost Delivery Risk Analysis
+#  Amazon Ghost Delivery Risk Analysis
 ### Identifying Revenue Leakage in Last-Mile Logistics Using Python & SQL
 
 > *"My order was marked delivered. It never arrived. I'm a data analyst. So I investigated."*
 
 ## 📊 Live Dashboard
-![Amazon Ghost Delivery Risk Analysis](Amazon_Ghost_Delivery_Risk_Analysis.pdf)
+
+![Amazon Ghost Delivery Dashboard](Amazon_Ghost_Delivery_Risk_Analysis.png)
 
 ---
 
