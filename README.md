@@ -1,10 +1,8 @@
-#  Amazon Ghost Delivery Risk Analysis
+# Amazon Ghost Delivery Risk Analysis
 ### Identifying Revenue Leakage in Last-Mile Logistics Using Python & Looker Studio
-
 > *"My order was marked delivered. It never arrived. I'm a data analyst. So I investigated."*
 
 ## 📊 Live Dashboard
-
 ![Amazon Ghost Delivery Dashboard](Amazon_Ghost_Delivery_Risk_Analysis.png)
 
 ---
@@ -27,15 +25,18 @@ Based on this analysis of 43,739 real delivery records:
 
 ## 🔍 Technical Architecture
 Architected an end-to-end data pipeline to detect, score, and visualise ghost delivery risk across 43,739 Amazon delivery records.
+
 ```
 Raw Dataset (Kaggle)
        ↓
 Python + Pandas — Data cleaning, feature engineering
        ↓
-Pandas + Numpy — Risk scoring queries, pattern detection
+Pandas — Risk scoring, pattern detection, anomaly flagging
        ↓
 Looker Studio — Executive dashboard with KPI scorecards
 ```
+
+---
 
 ## 🚨 Key Findings
 
@@ -50,8 +51,12 @@ Looker Studio — Executive dashboard with KPI scorecards
 | Primary Risk Vehicle | Motorcycle (74%) |
 | Primary Risk Weather | Windy / Stormy / Sandstorms |
 
+---
+
 ## 💡 Core Insight
 Suspicious deliveries are **65% faster** than normal. In metropolitan areas during adverse weather, a sub-45 minute delivery is physically improbable — indicating agents are scanning items as delivered without completing the actual drop-off. This pattern is concentrated in cities (78%), on motorcycles (74%), during windy, stormy, or sandstorm conditions.
+
+---
 
 ## 🛠️ Recommendations
 - 📸 **Mandatory photo proof** at point of delivery
@@ -60,16 +65,19 @@ Suspicious deliveries are **65% faster** than normal. In metropolitan areas duri
 - ⭐ **Agent accountability scoring** — flag agents with repeated fast deliveries in adverse conditions
 - 🤖 **Automated AI flagging** for sub-45 minute metropolitan deliveries during bad weather
 
+---
+
 ## 📁 Repository Structure
+
 ```
 amazon-ghost-delivery-analysis/
 ├── amazon_ghost_delivery_analysis.ipynb  — Full Python pipeline
 ├── amazon_delivery.csv                   — Raw dataset (43,739 records)
-├── ghost_risk_deliveries.csv             — Filtered suspicious deliveries
-├── ghost_summary.csv                     — Executive summary metrics
-├── Amazon_Ghost_Delivery_Risk_Analysis   — Looker Studio dashboard
-└── /research                             — Logic notes and methodology
+├── Amazon_Ghost_Delivery_Risk_Analysis   — Looker Studio dashboard screenshot
+└── /research                             — Methodology notes and scoring logic
 ```
+
+---
 
 ## 🔗 Author
 **Navneet Kaur** — Data Analyst | Supply Chain & Operations Analytics  
