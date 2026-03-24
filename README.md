@@ -1,5 +1,5 @@
 #  Amazon Ghost Delivery Risk Analysis
-### Identifying Revenue Leakage in Last-Mile Logistics Using Python & SQL
+### Identifying Revenue Leakage in Last-Mile Logistics Using Python & Looker Studio
 
 > *"My order was marked delivered. It never arrived. I'm a data analyst. So I investigated."*
 
@@ -32,7 +32,7 @@ Raw Dataset (Kaggle)
        ↓
 Python + Pandas — Data cleaning, feature engineering
        ↓
-SQL (SQLite) — Risk scoring queries, pattern detection
+Pandas + Numpy — Risk scoring queries, pattern detection
        ↓
 Looker Studio — Executive dashboard with KPI scorecards
 ```
