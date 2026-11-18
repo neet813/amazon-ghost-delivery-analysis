@@ -10,7 +10,7 @@
 ## 💼 The Business Case
 Ghost deliveries — orders marked as delivered but never received — represent a silent revenue leak for every e-commerce company operating in India.
 
-Based on this analysis of 43,739 real delivery records:
+Based on this analysis of 43,739 delivery records (public Kaggle dataset):
 
 | Business Impact | Value |
 |----------------|-------|
@@ -19,7 +19,6 @@ Based on this analysis of 43,739 real delivery records:
 | Operational leakage (logistics + support) | ₹2,52,800 |
 | Customer churn loss (90% stop ordering) | ₹1,70,64,000 |
 | **Total Revenue at Risk** | **₹1,82,64,800** |
-| Loss multiplier | For every ₹1 lost, Amazon loses ₹18 in ecosystem value |
 
 ---
 
